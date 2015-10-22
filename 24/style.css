@@ -1,0 +1,27 @@
+.jssort13 .w, .jssort13 .phv .w
+{
+	cursor: pointer;
+	position: absolute;
+	WIDTH: 98px;
+	HEIGHT: 29px;
+	border: 1px solid gray;
+	top: -1px;
+	left: 0px;
+}
+.jssort13 .pav .w, .jssort13 .pdn .w
+{
+	border-right: 1px solid #fff;
+}
+.jssort13 .c
+{
+    color: #000;
+    font-size:13px;             	
+}
+.jssort13 .p .c, .jssort13 .pav:hover .c
+{
+	background-color:#eee;
+}
+.jssort13 .pav .c, .jssort13 .p:hover .c, .jssort13 .phv .c
+{
+	background-color:#fff;
+}

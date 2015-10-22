@@ -1,0 +1,72 @@
+.captionOrange, .captionBlack
+{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.captionOrange
+{
+    background: #EB5100;
+    background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack
+{
+	font-size:16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover
+{
+    color: #eb5100;
+    text-decoration: underline;
+    background-color: #eeeeee;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon
+{
+    background: url(../img/browser-icons.png);
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+
+.jssorb01 div {
+    background-color: gray;
+}
+
+    .jssorb01 div:hover, .jssorb01 .av:hover {
+        background-color: #d3d3d3;
+    }
+
+.jssorb01 .av {
+    background-color: #fff;
+}
+
+.jssorb01 .dn, .jssorb01 .dn:hover {
+    background-color: #555555;
+}
+.jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../img/a02.png) no-repeat;
+    overflow:hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02ldn { background-position: -243px -33px; }
+.jssora02rdn { background-position: -303px -33px; }
